@@ -6,9 +6,9 @@
 </head>
 
 <body>
-	<h1> IN SETLIST </h1>
 	<?php
 		$genre = $_GET["w"];
+		echo "HEYO";
 		if ($genre == "Pop")
 			echo "White";
 		else if ($genre == "Rock")
