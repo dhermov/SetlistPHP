@@ -6,6 +6,7 @@
 </head>
 
 <body>
+	<h1> IN SETLIST </h1>
 	<?php
 		$genre = $_GET["w"];
 		if ($genre == "Pop")
