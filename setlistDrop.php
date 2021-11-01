@@ -8,7 +8,7 @@
 <body>
 	<?php
 		$genre = $_GET["w"];
-		echo "HEYO";
+		echo "HI U GOT THIS";
 		if ($genre == "Pop")
 			echo "White";
 		else if ($genre == "Rock")
