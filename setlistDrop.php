@@ -2,23 +2,25 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>PHP Demo</title>
+<title>PHP Setlist</title>
 </head>
 
 <body>
 	<?php
-		$word = $_GET["w"];
-		if ($word == "black")
+		$genre = $_GET["w"];
+		if ($genre == "Pop")
 			echo "White";
-		else if ($word == "white")
+		else if ($genre == "Rock")
 			echo "Black";
-		else if ($word == "up")
+		else if ($genre == "Alternative")
 			echo "Down";
-		else if ($word == "down")
+		else if ($genre == "Classic Rock")
 			echo "Up";
-		else if ($word == "yes")
+		else if ($genre == "Electronic")
 			echo "No";
-		else if ($word == "no")
+		else if ($genre == "Regional Mexican")
+			echo "Yes";
+        else if ($genre == "Hip-Hop")
 			echo "Yes";
 		else echo "nothing to say!";
 	?>
